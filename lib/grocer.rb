@@ -3,10 +3,10 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   collection.each do |item, info|
-    if collection.include?(name)
+    if collection.include?([:item][name])
       p collection[:item]
     end
-    binding.pry 
+    #binding.pry 
   end
   NIL
 end 
