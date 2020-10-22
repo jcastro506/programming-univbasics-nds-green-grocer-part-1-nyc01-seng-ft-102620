@@ -3,8 +3,11 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   collection.each do |item, info|
-    if collection.include
+    if collection.include?(name)
+      return collection[:item]
+    end
   end 
+end 
 
 end
 
