@@ -2,15 +2,7 @@ require 'pry'
 
 
 def find_item_by_name_in_collection(name, collection)
-  new_hash = {}
-  collection.each do |item, info|
-    if collection.include?([:item][name])
-      p collection[:item]
-    end
-    #binding.pry 
-  end
-  NIL
-end 
+  
 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
