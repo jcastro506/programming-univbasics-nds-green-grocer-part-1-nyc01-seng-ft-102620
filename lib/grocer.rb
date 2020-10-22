@@ -6,6 +6,7 @@ def find_item_by_name_in_collection(name, collection)
     if collection.include?(name)
       p collection[:item]
     end
+    binding.pry 
   end
   NIL
 end 
