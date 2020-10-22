@@ -6,7 +6,8 @@ def find_item_by_name_in_collection(name, collection)
     if collection.include?(name)
       return collection[:item]
     end
-  end 
+  end
+  NIL
 end 
 
 def consolidate_cart(cart)
